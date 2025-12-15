@@ -1,0 +1,36 @@
+.container {
+    width: 600px;
+    height: 600px;
+    margin: auto auto;
+    background: rgba(83, 78, 78, 0.489);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    font-size: 2rem;
+    margin: 10px;
+    border-radius: 15px;
+    border: none;
+    background: #e63946;
+    color: white;
+}
+
+button:hover {
+    background: #d62828;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+
+}
+
+section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
