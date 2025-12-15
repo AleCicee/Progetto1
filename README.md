@@ -1,2 +1,2 @@
 # Progetto1
-Lupus Infabula w Frontend &amp; Backend
+Progetto tris con backend e frontend
