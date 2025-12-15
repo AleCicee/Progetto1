@@ -1,4 +1,4 @@
-UTENTI = {admin : 123}
+UTENTI = {"admin" : 123}
 def login(username,password):
     print("Login function called")
     if username in UTENTI and UTENTI[username] == password:
