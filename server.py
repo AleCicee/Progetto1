@@ -43,14 +43,15 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             
             check = logFile.signin(username,password)
             
-            if check:
-                f = open('index.html', "r")
+            if check: #se si è registrato
+                f = open('login.html', "r")
                 codice_html = f.read()
                 f.close()
                 self.send_response(200)
                 self.send_header('Content-type', 'text/html')
                 self.end_headers()
-                self.wfile.write(codice_html.encode('utf-8')) 
+                self.wfile.write(codice_html.encode('utf-8'))
+                
 
 with socketserver.ThreadingTCPServer(("",PORTA),Handler) as httpd:
     print("Server on")
