@@ -21,7 +21,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         check = logFile.login(username,password)
         
         if check == False: #NON LOGGATO
-            f = open('register.html', "r")
+            f = open('registration.html', "r")
             codice_html = f.read()
             f.close()
             self.send_response(200)
