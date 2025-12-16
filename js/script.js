@@ -30,6 +30,7 @@ for (const element of document.getElementsByClassName("box")) {
         }
       }
 
+
       // ESITO
       if (winner === "CPU") {
         alert("HA VINTO LA CPU");
